@@ -9,7 +9,7 @@ class DemoApplicationTests {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplicationTests.class, args){
-		Dev obj = new Dev();
+		Dev obj = null;
 		obj.build();
 	}
 }
